@@ -1,5 +1,8 @@
 package models
 
+type SearchResults struct {
+	Search []Movie `json:"Search"`
+}
 type Movie struct {
 	Metascore  string   `json:"Metascore"`
 	BoxOffice  string   `json:"BoxOffice"`
